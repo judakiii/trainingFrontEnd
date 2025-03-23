@@ -4,8 +4,10 @@ header{
 }
 
 .navbar{
+    padding: 0 96px 0 96px;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 header a{
@@ -15,7 +17,6 @@ header a{
 header ul{
     display: flex;
     gap: 64px;
-    width: 818.5px;
     justify-content: center;
     align-items: center;}
 header li{
