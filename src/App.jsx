@@ -2,7 +2,7 @@
 import { Landing } from "./pages";
 // import {Header} from "./components";
 import Header from './components/spectific/header/Header';
-
+import Footer from "./components/spectific/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <>
           <Header/>
           <Landing/>
+          <Footer/>
       </>
   );
 }

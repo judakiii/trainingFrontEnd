@@ -1,0 +1,58 @@
+.footer{
+    display: flex;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 28px;
+    background-color: rgba(26, 29, 26, 1);
+    justify-content: center;
+
+}
+.social{
+    color: rgba(235, 235, 235, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.social div{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.social div a img:hover {
+    transform: scale(1.1); 
+  }
+.links{
+    text-align: right;
+    color: rgba(235, 235, 235, 1);
+}
+.links h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 58px;
+}
+.links a{
+    text-decoration: none;
+    color: rgba(235, 235, 235, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.address{
+    margin-top: 25px;
+    text-align: right;
+    width: 349px;
+}
+.address p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(235, 235, 235, 1);
+}
+.address img{
+    width: 130;
+    height: 50px;
+}
